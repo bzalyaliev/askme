@@ -1,0 +1,6 @@
+<div class = "container">
+  <h2 class="tittle-lg mb">Вопрос <%= @question.id %></h2>
+
+  <%= render 'question', question: @question %>
+  <p class="mt"><%= link_to "Все вопросы", questions_path %></p>
+</div>
